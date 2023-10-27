@@ -67,6 +67,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "hor",
+                    "type": "Value",
+                    "id": "d6c3b9ca-a04f-41b5-adf8-e406d71f43df",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ver",
+                    "type": "Value",
+                    "id": "1f988e86-acfe-418d-925d-89df7095977f",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -243,6 +261,28 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Is Tracked",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0e8d4f83-1c44-4d73-89a6-c63ffab8a00a",
+                    "path": "<XRController>{LeftHand}/primary2DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "hor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a0bc805b-1bee-459d-9cd5-e3d1de0206a7",
+                    "path": "<XRController>{RightHand}/primary2DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "ver",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
